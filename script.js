@@ -171,3 +171,12 @@ button {
   width: 150px;
   text-align: center;
 }
+.artist-card:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #ff79a9;
+  transition: 0.3s;
+}
