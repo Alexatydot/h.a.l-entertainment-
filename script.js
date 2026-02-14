@@ -139,3 +139,22 @@ footer {
   font-size: 1.5em;
   text-shadow: 2px 2px 5px black;
 }
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #111; /* dark background */
+  color: #fff; /* text color */
+}
+
+a {
+  color: #ff4081; /* neon pink links */
+  text-decoration: none;
+}
+
+button {
+  background-color: #ff4081;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
