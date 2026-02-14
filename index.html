@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>H.A.L Entertainment</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">H.A.L Entertainment</div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#artists">Artists</a></li>
+                <li><a href="#auditions">Auditions</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Harmony. Ambition. Legacy.</h1>
+        <p>Where stars are born and legends are made.</p>
+        <button onclick="scrollToSection('auditions')">Audition Now</button>
+    </section>
+
+    <section id="about" class="section">
+        <h2>About Us</h2>
+        <p>
+            Founded in Seoul, H.A.L Entertainment is a global K-pop agency
+            focused on innovation, storytelling, and artist development.
+        </p>
+    </section>
+
+    <section id="artists" class="section dark">
+        <h2>Our Artists</h2>
+        <div class="cards">
+
+            <div class="card">
+                <h3>NOVA7</h3>
+                <p>Debut: 2018</p>
+                <p>Concept: Futuristic / EDM Pop</p>
+            </div>
+
+            <div class="card">
+                <h3>LUMINA</h3>
+                <p>Debut: 2020</p>
+                <p>Concept: Dark Pop / Elegant</p>
+            </div>
+
+            <div class="card">
+                <h3>V!BE</h3>
+                <p>Debut: 2023</p>
+                <p>Concept: Hip-Hop / Self-Produced</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="auditions" class="section">
+        <h2>Global Auditions 2026</h2>
+        <p>We are looking for vocalists, rappers, dancers, and producers worldwide.</p>
+
+        <form id="auditionForm">
+            <input type="text" placeholder="Full Name" required>
+            <input type="email" placeholder="Email Address" required>
+            <select required>
+                <option value="">Select Category</option>
+                <option>Vocal</option>
+                <option>Rap</option>
+                <option>Dance</option>
+                <option>Producer</option>
+            </select>
+            <button type="submit">Submit Application</button>
+        </form>
+
+        <p id="formMessage"></p>
+    </section>
+
+    <section id="shop" class="section dark">
+        <h2>Official Shop</h2>
+        <p>Albums • Lightsticks • Apparel • Tour Merch</p>
+        <button onclick="shopAlert()">Shop Now</button>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <p>Email: business@halent.com</p>
+        <p>Seoul, South Korea</p>
+    </section>
+
+    <footer>
+        <p>© 2026 H.A.L Entertainment. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
