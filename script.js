@@ -158,3 +158,16 @@ button {
   cursor: pointer;
   font-weight: bold;
 }
+.artist-grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.artist-card {
+  background-color: #222;
+  padding: 20px;
+  border-radius: 10px;
+  width: 150px;
+  text-align: center;
+}
