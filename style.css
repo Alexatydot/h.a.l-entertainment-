@@ -1,0 +1,15 @@
+function scrollToSection(id) {
+    document.getElementById(id).scrollIntoView({
+        behavior: "smooth"
+    });
+}
+
+function shopAlert() {
+    alert("Official H.A.L Shop Coming Soon!");
+}
+
+document.getElementById("auditionForm").addEventListener("submit", function(e) {
+    e.preventDefault();
+    document.getElementById("formMessage").textContent =
+        "Thank you for applying to H.A.L Entertainment! We will contact you if selected.";
+});
